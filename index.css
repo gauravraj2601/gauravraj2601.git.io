@@ -247,18 +247,11 @@ body {
     }
   }
   
-  
-  
-  
-  
-  
-  
-  
   .box22 {
     width: 70%;
     margin: auto;
-    margin-top: 40px;
-    background-color: #001C55;
+    margin-top: 20px;
+    background-color: #333;
     border: 1px solid #989292;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     border-radius: 12px;
@@ -271,10 +264,9 @@ body {
   
   .skills-card {
     border: none;
-    border-top: 3px solid rgb(126, 133, 126);
     border-radius: 8px;
     font-size: 1em;
-    color: #001C55;
+    color: #2a3650;
     font-weight: bold;
     background: white;
     display: flex;
@@ -286,52 +278,14 @@ body {
     text-align: center;
     margin: 1%;
     padding: 5px;
-    transform-origin: 50% 5em;
+   
   }
   
   .box22>div>div>img {
     max-width: 40px;
     margin-right: 5px;
   }
-  
-  .skills-card {
-    animation: wiggle 3s linear infinite;
-    animation-delay: calc(0.3s * var(--i));
-  }
-  
-  @keyframes wiggle {
-  
-    0%,
-    7% {
-      transform: rotateZ(0);
-    }
-  
-    15% {
-      transform: rotateZ(-10deg);
-    }
-  
-    20% {
-      transform: rotateZ(5deg);
-    }
-  
-    25% {
-      transform: rotateZ(-5deg);
-    }
-  
-    30% {
-      transform: rotateZ(3deg);
-    }
-  
-    35% {
-      transform: rotateZ(-2deg);
-    }
-  
-    40%,
-    100% {
-      transform: rotateZ(0);
-    }
-  }
-  
+
   
   /* gitHub streak stats  */
   
@@ -353,30 +307,7 @@ body {
   }
   
   
-  
-  /* 
-  
-  .container hr {
-    border: none;
-    height: 8px;
-    margin: 0 auto;
-    margin-bottom: 10px;
-    border-radius: 20px;
-    
-  }
-  
-  .line-long {
-    width: 20%;
-    background: linear-gradient(to right, #FFD700, #FF8C00);
-  }
-  
-  .line-short {
-    width: 10%;
-    background: linear-gradient(to right, #00BFFF, #4169E1);
-  } */
-  
-  
-  
+ 
   
   
   
